@@ -6,3 +6,21 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.margin-top-260px {
+	margin-top: 260px;
+}
+
+.margin-top-60px {
+	margin-top: 60px;
+}
+
+.detail {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 10px;
+	background: linear-gradient(90deg, #f27244 0%, #f7b277 33%, #f2ca99 100%);
+}

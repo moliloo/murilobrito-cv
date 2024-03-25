@@ -1,17 +1,16 @@
-.intro {
+.section {
 	display: grid;
 	grid-template-columns: 4fr 6fr;
 	gap: 0px 40px;
-	margin-top: 260px;
 	align-items: center;
 }
 
-.intro img {
+.section img {
 	height: 360px;
 	width: 360px;
 	object-fit: cover;
 }
 
-.intro-text {
-	width: 12ch;
+.section-text {
+	width: 42ch;
 }
