@@ -4,6 +4,10 @@ body {
 	background-color: var(--b1);
 }
 
+main {
+	margin-top: 100px;
+}
+
 ul {
 	padding: 0px;
 	list-style: none;
@@ -31,7 +35,8 @@ img {
 	display: block;
 }
 
-[src$='.jpg'] {
+[src$='.jpg'],
+[src$='.png'] {
 	border-radius: 5px;
 }
 

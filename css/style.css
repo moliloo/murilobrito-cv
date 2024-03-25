@@ -3,5 +3,6 @@
 
 @import './utilities/color.css';
 @import './utilities/typography.css';
-
 @import './utilities/components.css';
+
+@import './sections/intro.css';
