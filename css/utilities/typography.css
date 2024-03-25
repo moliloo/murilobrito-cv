@@ -1,0 +1,64 @@
+.font-1-xxl {
+	font-family: 'REM';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 72px;
+}
+
+.font-1-xl {
+	font-family: 'REM';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.font-1-l {
+	font-family: 'REM';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.font-2-l {
+	font-family: 'Instrument Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.font-2-l-b {
+	font-family: 'Instrument Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.015em;
+}
+
+.font-1-m {
+	font-family: 'REM';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.font-1-m-b {
+	font-family: 'REM';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.font-2-m {
+	font-family: 'Instrument Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+}
