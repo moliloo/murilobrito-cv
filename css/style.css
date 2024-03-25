@@ -1,2 +1,7 @@
+@import './global/global.css';
+@import './global/header.css';
+
 @import './utilities/color.css';
 @import './utilities/typography.css';
+
+@import './utilities/components.css';
