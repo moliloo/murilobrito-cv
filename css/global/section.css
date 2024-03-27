@@ -5,12 +5,42 @@
 	align-items: center;
 }
 
-.section img {
+.section-img {
 	height: 360px;
 	width: 360px;
 	object-fit: cover;
 }
 
+.section-title {
+	width: 12ch;
+}
+
 .section-text {
 	width: 42ch;
+}
+
+.section-ul {
+	display: flex;
+	gap: 140px;
+}
+
+.section-ul img {
+	width: 260px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.section-ul h3::before {
+	content: '';
+	display: inline-block;
+	background: linear-gradient(90deg, #f2ca99 0%, #f7b277 33%, #f27244 100%);
+	height: 8px;
+	width: 12px;
+	margin-right: 8px;
+	border-radius: 2px;
+	transition: width 0.2s;
+}
+
+.section a:hover h3::before {
+	width: 24px;
 }
