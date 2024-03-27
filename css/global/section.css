@@ -84,6 +84,7 @@ label:nth-child(2) {
 .form input[type='email'],
 .form textarea {
 	width: 20ch;
+	padding: 8px 16px;
 }
 
 .form input[type='text']:focus,
@@ -93,4 +94,8 @@ label:nth-child(2) {
 	border-color: var(--o1);
 	background: var(--b0);
 	box-shadow: 0 0 0 2px var(--t2);
+}
+
+.form {
+	padding: 60px;
 }

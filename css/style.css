@@ -1,6 +1,7 @@
 @import './global/global.css';
 @import './global/header.css';
 @import './global/section.css';
+@import './global/footer.css';
 
 @import './utilities/color.css';
 @import './utilities/typography.css';

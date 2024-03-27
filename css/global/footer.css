@@ -1,0 +1,27 @@
+.footer {
+	background-color: rgba(135, 99, 56, 0.45);
+}
+.footer p {
+	padding: 12px 0;
+}
+
+.footer-link {
+	position: relative;
+	display: inline-block;
+}
+
+.footer-link::before {
+	content: '';
+	display: inline-block;
+	background: var(--t2);
+	height: 3px;
+	width: 0;
+	border-radius: 2px;
+	top: 22px;
+	transition: width 0.2s;
+	position: absolute;
+}
+
+.footer-link:hover::before {
+	width: 100%;
+}
