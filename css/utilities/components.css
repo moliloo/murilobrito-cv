@@ -40,3 +40,16 @@
 	background: linear-gradient(90deg, #f27244 0%, #f7b277 33%, #f2ca99 100%);
 	border-radius: 4px;
 }
+
+button {
+	padding: 16px 32px;
+	margin-top: 16px;
+	background: linear-gradient(180deg, #48afae 0%, #349897 100%);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	background: linear-gradient(180deg, #48afae 0%, #2aabaa 100%);
+}

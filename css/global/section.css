@@ -2,7 +2,6 @@
 	display: grid;
 	grid-template-columns: 4fr 6fr;
 	gap: 0px 40px;
-	align-items: center;
 }
 
 .section-img {
@@ -30,6 +29,15 @@
 	object-fit: cover;
 }
 
+.section span {
+	align-self: center;
+}
+
+.section h2 {
+	align-self: start;
+	width: 12ch;
+}
+
 .section-ul h3::before {
 	content: '';
 	display: inline-block;
@@ -43,4 +51,46 @@
 
 .section-ul a:hover h3::before {
 	width: 24px;
+}
+
+.form {
+	background-color: rgba(135, 99, 56, 0.45);
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px 32px;
+	padding: 32px 60px;
+}
+
+.form label {
+	display: block;
+}
+
+.form input,
+textarea {
+	background-color: var(--b0);
+	border: none;
+	border-radius: 4px;
+}
+
+.form input,
+label:nth-child(1),
+label:nth-child(2) {
+	margin-bottom: 32px;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form textarea {
+	width: 20ch;
+}
+
+.form input[type='text']:focus,
+.form input[type='email']:focus,
+.form textarea:focus {
+	outline: none;
+	border-color: var(--o1);
+	background: var(--b0);
+	box-shadow: 0 0 0 2px var(--t2);
 }
