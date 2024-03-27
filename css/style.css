@@ -1,9 +1,9 @@
 @import './global/global.css';
 @import './global/header.css';
+@import './global/section.css';
 
 @import './utilities/color.css';
 @import './utilities/typography.css';
 @import './utilities/components.css';
 
 @import './sections/intro.css';
-@import './sections/section.css';
