@@ -87,6 +87,11 @@ label:nth-child(2) {
 	padding: 8px 16px;
 }
 
+.form label:nth-child(1),
+label:nth-child(2) {
+	padding-bottom: 16px;
+}
+
 .form input[type='text']:focus,
 .form input[type='email']:focus,
 .form textarea:focus {
