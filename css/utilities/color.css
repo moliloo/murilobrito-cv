@@ -10,6 +10,8 @@
 	--o2: #f58d60;
 	--t1: #137473;
 	--t2: #48afae;
+	--g1: linear-gradient(90deg, #f27244 0%, #f7b277 33%, #f2ca99 100%);
+	--g2: linear-gradient(90deg, #f2ca99 0%, #f7b277 33%, #f27244 100%);
 }
 
 .b0 {

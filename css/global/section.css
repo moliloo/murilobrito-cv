@@ -29,6 +29,10 @@
 	object-fit: cover;
 }
 
+.section span {
+	align-self: center;
+}
+
 .section h2 {
 	align-self: start;
 	width: 12ch;
@@ -56,7 +60,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 40px 32px;
-	padding: 60px;
+	padding: 32px 60px;
 }
 
 .form label {
@@ -95,4 +99,8 @@ label:nth-child(2) {
 	border-color: var(--o1);
 	background: var(--b0);
 	box-shadow: 0 0 0 2px var(--t2);
+}
+
+.form {
+	padding: 60px;
 }

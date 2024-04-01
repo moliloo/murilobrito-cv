@@ -39,3 +39,11 @@ img {
 [src$='.png'] {
 	border-radius: 5px;
 }
+
+input[type='checkbox'] {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	margin: 0;
+	
+}
