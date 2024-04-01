@@ -1,3 +1,4 @@
+/* arquivos que importa todos os outros arquivos css para este, para evitar a necessidade de linkar todos os css no html, apenas um que já cumpre esse papél */
 @import './global/global.css';
 @import './global/header.css';
 @import './global/section.css';

@@ -1,15 +1,18 @@
+/* classe para criar um grid nas sessões do html para manter a padronização entre as sessões */
 .section {
 	display: grid;
 	grid-template-columns: 4fr 6fr;
 	gap: 0px 40px;
 }
 
+/* classe que serve para previnir que o grid altere o tamanho das images de forma desuniforme */
 .section-img {
 	height: 360px;
 	width: 360px;
 	object-fit: cover;
 }
 
+/* a classe section-title e section-text servem para que a largura dos parágrafos não ultrapasse uma quantidade de caracteres */
 .section-title {
 	width: 12ch;
 }
@@ -18,26 +21,26 @@
 	width: 42ch;
 }
 
+/* classe para ordenar e organizar os projetos da sessão do portifólio, criando uma lista horizontal */
 .section-ul {
 	display: flex;
 	gap: 140px;
 }
 
+/* com uma função parecida com o section-img, mas para atuar apenas nos projetos */
 .section-ul img {
 	width: 260px;
 	height: 150px;
 	object-fit: cover;
 }
 
-.section span {
-	align-self: center;
-}
-
+/* classe para alinhar os títulos e como preucação, um tamanho máximo para que não ultrapasse o tamanho especulado */
 .section h2 {
 	align-self: start;
 	width: 12ch;
 }
 
+/* cria um pequeno detalho ao lado do título do h3 que refere aos outros pojetos desenvolvidos, que quando passa o mouse por cima, o detalhe se expande para insinuar que seja um elemento interativo para o usuário */
 .section-ul h3::before {
 	content: '';
 	display: inline-block;
@@ -53,6 +56,7 @@
 	width: 24px;
 }
 
+/* classe que cria o fundo do formulário e um grid para dispor os elementos */
 .form {
 	background-color: rgba(135, 99, 56, 0.45);
 	border-radius: 4px;
@@ -60,13 +64,15 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 40px 32px;
-	padding: 32px 60px;
+	padding: 60px;
 }
 
+/* classe para que os labels não percam a quebra de linha e permaneçam na mesma */
 .form label {
 	display: block;
 }
 
+/* estilizando os inputs e textarea, com fundo, espaçamento e com uma margem, mas apenas nos 2 primeiros elementos */
 .form input,
 textarea {
 	background-color: var(--b0);
@@ -80,6 +86,7 @@ label:nth-child(2) {
 	margin-bottom: 32px;
 }
 
+/* largura dos inputs para que tenham o mesmo tamanho */
 .form input[type='text'],
 .form input[type='email'],
 .form textarea {
@@ -87,11 +94,13 @@ label:nth-child(2) {
 	padding: 8px 16px;
 }
 
+/* criando um espaçamento para o texto não ficar colado à borda */
 .form label:nth-child(1),
 label:nth-child(2) {
 	padding-bottom: 16px;
 }
 
+/* quando estiver preenchendo os campos dos formulários, a borda dos campos mudará de cor */
 .form input[type='text']:focus,
 .form input[type='email']:focus,
 .form textarea:focus {
@@ -99,8 +108,4 @@ label:nth-child(2) {
 	border-color: var(--o1);
 	background: var(--b0);
 	box-shadow: 0 0 0 2px var(--t2);
-}
-
-.form {
-	padding: 60px;
 }
