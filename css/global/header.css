@@ -1,3 +1,4 @@
+/* classe para criar o fundo do header */
 .header-bg {
 	background-color: rgba(210, 166, 111, 0.5);
 	backdrop-filter: blur(10px);
@@ -8,6 +9,7 @@
 	z-index: 1000;
 }
 
+/* classe para criar o espaçamento entre a logo e o ul */
 .header {
 	display: flex;
 	flex-wrap: wrap;
@@ -16,18 +18,21 @@
 	padding: 20px;
 }
 
+/* classe para criar o espaçamento entre os elemtentos do ul */
 .header-menu {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 40px;
 }
 
+/* classe para para aumentar o tamanho da distância do clique da tag a */
 .header-menu a {
 	padding: 16px 0px;
 	display: inline-block;
 	position: relative;
 }
 
+/* classe para criar uma animação quando o mouse estiver sobre uma das âncoras, surgir um elemento ao lado do texto, simbolizando que é um elemento interativo */
 .header-menu a::before {
 	position: absolute;
 	content: '';

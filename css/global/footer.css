@@ -1,3 +1,4 @@
+/* estilização do footer da página, onde cria o fundo e o espaçamento para o conteúdo do footer */
 .footer {
 	background-color: rgba(135, 99, 56, 0.45);
 }
@@ -5,6 +6,8 @@
 	padding: 12px 0;
 }
 
+
+/* criando uma estilização da tag a para que quando se passe o mouse sobre a tag a, ela coloque um sublinhado idicando ser um texto com hyperlink */
 .footer-link {
 	position: relative;
 	display: inline-block;

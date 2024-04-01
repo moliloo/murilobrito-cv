@@ -1,3 +1,4 @@
+/* classe para que o conteúdo de cada sessão não 'vaze' e fique torto ou até mesmo uma linha de uma borda a outra da tela */
 .container {
 	box-sizing: border-box;
 	max-width: 1200px;
@@ -7,6 +8,7 @@
 	margin-right: auto;
 }
 
+/* já esse container é para os ícones da sessão do portifólio */
 .container-icons {
 	display: flex;
 	gap: 60px;
@@ -14,6 +16,7 @@
 	height: 120px;
 }
 
+/* classes criadas para dar espaçamento entre os elementos, foi escolhida essa alternativa por que a mesma margem não serviria para elemento do mesmo tipo em outra parte do site  */
 .margin-top-320px {
 	margin-top: 320px;
 }
@@ -42,17 +45,19 @@
 	margin-top: 20px;
 }
 
+/* uma classe que cria a linha em degradê que fica ao lado dos títulos de cada sessão */
 .detail {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-self: center;
 	width: 100%;
 	height: 10px;
 	background: linear-gradient(90deg, #f27244 0%, #f7b277 33%, #f2ca99 100%);
 	border-radius: 4px;
 }
 
+/* estilização do botão e quando o mouse está sobre ele */
 button {
 	padding: 16px 32px;
 	margin-top: 16px;
